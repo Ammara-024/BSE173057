@@ -1,0 +1,7 @@
+}
+	public static void Average(int number1, int number2, int number3 ) {
+		if(number1>=1 && number1<= 100 && number2>=101 && number2<=200 && number3>= 201 && number3<=300 ) {
+		  float Avg=(number1 + number2 + number3)/3;
+		  System.out.println("The average of three number is "  + Avg);
+		}
+		else {
